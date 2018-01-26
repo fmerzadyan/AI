@@ -1,40 +1,54 @@
-adj(S, T, U) :- adj(S, T, U).
-adj(S, T, U) :- adj(T, S, U).
+adj(S, T) :- adj(S, T).
+adj(S, T) :- adj(T, S).
 
-room(S) :- adj(S, T, U).
+room(S) :- adj(S, T).
 
 trap(S) | -trap(S) :- room(S).
 
 cold(S) :- trap(S).
-cold(S) :- trap(T), adj(S, T, U).
--cold(S) :- -trap(S), #count{T: adj(S, T, U), trap(T)} = 0.
+cold(S) :- trap(T), adj(S, T).
+-cold(S) :- -trap(S), #count{T: adj(S, T), trap(T)} = 0.
 :- total_traps(N), #count{S: trap(S)} > N.
 :- #count{S: trap(S)} = 0.
 
 reactor(S) | -reactor(S) :- room(S).
 radioactive(S) :- reactor(S).
-radioactive(S) :- reactor(T), adj(S, T, U).
--radioactive(S) :- -reactor(S), #count{T: adj(S, T, U), reactor(T)} = 0.
+radioactive(S) :- reactor(T), adj(S, T).
+-radioactive(S) :- -reactor(S), #count{T: adj(S, T), reactor(T)} = 0.
 
 :- total_reactors(N), #count{S: reactor(S)} > N.
 :- #count{S: reactor(S)} = 0.
 
 % Init.
 
-% a1 --- a2
-% |      |
-% b1 --- b2
+% a1f1 --- a2f1
+% |          |
+% b1f1 --- b2f1
 
-adj(a1, a2, c1).
-adj(a1, a2, b1).
-adj(a2, b2, c2).
-adj(b1, b2, d1).
-adj(b2, a2, d2).
-adj(c1, c2, d1).
-adj(c2, a2, d2).
-adj(d1, d2, a2).
-adj(d2, b2, c2).
+% a1f2 --- a2f2
+% |          |
+% b1f2 --- b2f2
 
+% Floor 1.
+adj(a1f1,a2f1).
+adj(a1f1,b1f1).
+adj(a2f1,b2f1).
+adj(b1f1,b2f1).
+
+% Floor 2.
+adj(a1f2,a2f2).
+adj(a1f2,b1f2).
+adj(a2f2,b2f2).
+adj(b1f2,b2f2).
+
+% Connections between floor 1 and floor 2.
+adj(a1f1, a1f2).
+adj(a2f1, a2f2).
+adj(b1f1, b1f2).
+adj(b2f1, b2f2).
+
+radioactive(a2f1).
+-cold(b1f1).
 
 total_traps(1).
 total_reactors(1).
