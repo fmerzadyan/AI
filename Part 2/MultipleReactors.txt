@@ -1,0 +1,30 @@
+adj(X, Y) :- adj(X, Y).
+adj(X, Y) :- adj(Y, X).
+
+room(S) :- adj(S, T).
+
+trap(S) | -trap(S) :- room(S).
+cold(S) :- trap(S).
+cold(S) :- trap(T), adj(S, T).
+
+:- total_traps(L), #count{K: trap(K)} > L.
+:- #count{K: trap(K)} = 0.
+
+reactor(S) | -reactor(S) :- room(S).
+radioactive(S) :- reactor(S).
+radioactive(S) :- reactor(T), adj(S, T).
+
+:- total_reactors(L), #count{K: reactor(K)} > L.
+:- #count{K: reactor(K)} = 0.
+
+% Init.
+adj(a1,b1).
+adj(a1,a2).
+adj(a2,b2).
+adj(b1,b2).
+
+radioactive(b1).
+-cold(a2).
+
+total_traps(1).
+total_reactors(2).
