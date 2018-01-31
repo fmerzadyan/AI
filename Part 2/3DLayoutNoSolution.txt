@@ -1,0 +1,28 @@
+% a1f1 --- a2f1
+% |          |
+% b1f1 --- b2f1
+
+% a1f2 --- a2f2
+% |          |
+% b1f2 --- b2f2
+
+% Floor 1.
+adj(a1f1,a2f1).
+adj(a1f1,b1f1).
+adj(a2f1,b2f1).
+adj(b1f1,b2f1).
+
+% Floor 2.
+adj(a1f2,a2f2).
+adj(a1f2,b1f2).
+adj(a2f2,b2f2).
+adj(b1f2,b2f2).
+
+% Connections between floor 1 and floor 2.
+adj(a1f1, a1f2).
+adj(a2f1, a2f2).
+adj(b1f1, b1f2).
+adj(b2f1, b2f2).
+
+total_traps(0).
+total_reactors(1).
