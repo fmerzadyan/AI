@@ -1,0 +1,14 @@
+% a1 --- a2
+% |      |
+% b1 --- b2
+
+adj(a1,a2).
+adj(a1,b1).
+adj(a2,b2).
+adj(b1,b2).
+
+radioactive(a2).
+-cold(b1).
+
+total_traps(1).
+total_reactors(2).

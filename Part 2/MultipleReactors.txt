@@ -23,6 +23,7 @@ n_reactor(N, S) :- reactor(S), #int(N), N>0, total_reactors(K), N<K,  #count{T: 
 % If there are no reactors in room S then it can be defined as n_reactor(0, S).
 n_reactor(0, S) :- -reactor(S).
 
+% There cannot be an instance where there are multiple reactors with maximum reactors inside.
 :- total_reactors(K), #count{S: n_reactor(N, S), N=K} > 1.
 
 reactor(S) | -reactor(S) :- room(S).
@@ -32,20 +33,3 @@ radioactive(S) :- reactor(T), adj(S, T).
 
 :- total_reactors(N), #count{S: reactor(S)} > N.
 :- #count{S: reactor(S)} = 0.
-
-% Init.
-
-% a1 --- a2
-% |      |
-% b1 --- b2
-
-adj(a1,a2).
-adj(a1,b1).
-adj(a2,b2).
-adj(b1,b2).
-
-radioactive(a2).
--cold(b1).
-
-total_traps(1).
-total_reactors(2).
