@@ -619,7 +619,7 @@ currentRoom.items = 0</postcondition>
 									<object id="9">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>2</value>
+												<value>0</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -845,88 +845,8 @@ currentRoom.items = 0</postcondition>
 										</attributes>
 										<graphics>
 											<icon />
-											<position x="475" y="389" />
+											<position x="124" y="142" />
 											<size width="152" height="115" />
-											<color />
-										</graphics>
-									</object>
-									<object id="7">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="51" y="109" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="9">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="290" y="113" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="11">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="534" y="115" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="10">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="54" y="437" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="8">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="49" y="279" />
-											<size width="120" height="80" />
 											<color />
 										</graphics>
 									</object>
@@ -1213,86 +1133,6 @@ currentRoom.items = 0</postcondition>
 											<color />
 										</graphics>
 									</object>
-									<object id="7">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="51" y="109" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="9">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="290" y="113" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="11">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="534" y="115" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="10">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="54" y="437" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="8">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="49" y="279" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
 								</objects>
 								<associations />
 								<constraints />
@@ -1345,7 +1185,7 @@ currentRoom.items = 0</postcondition>
 									<object id="9">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>2</value>
+												<value>0</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -1377,7 +1217,7 @@ currentRoom.items = 0</postcondition>
 									<object id="11">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>1</value>
+												<value>2</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -1393,7 +1233,7 @@ currentRoom.items = 0</postcondition>
 									<object id="10">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>1</value>
+												<value>0</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -1408,60 +1248,12 @@ currentRoom.items = 0</postcondition>
 									</object>
 								</objects>
 								<associations>
-									<objectAssociation id="1">
-										<classAssociation>2</classAssociation>
-										<description />
-										<associationEnds>
-											<objectAssociationEnd element="object" element-id="7" id="1" />
-											<objectAssociationEnd element="object" element-id="9" id="2" />
-										</associationEnds>
-										<graphics>
-											<labels>
-												<label type="main" identifier="">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="1">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="2">
-													<position x="" y="" />
-												</label>
-											</labels>
-											<points />
-											<color />
-											<lineStyle />
-										</graphics>
-									</objectAssociation>
 									<objectAssociation id="2">
 										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
 											<objectAssociationEnd element="object" element-id="9" id="1" />
 											<objectAssociationEnd element="object" element-id="11" id="2" />
-										</associationEnds>
-										<graphics>
-											<labels>
-												<label type="main" identifier="">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="1">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="2">
-													<position x="" y="" />
-												</label>
-											</labels>
-											<points />
-											<color />
-											<lineStyle />
-										</graphics>
-									</objectAssociation>
-									<objectAssociation id="3">
-										<classAssociation>2</classAssociation>
-										<description />
-										<associationEnds>
-											<objectAssociationEnd element="object" element-id="7" id="1" />
-											<objectAssociationEnd element="object" element-id="8" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -1528,12 +1320,84 @@ currentRoom.items = 0</postcondition>
 											<lineStyle />
 										</graphics>
 									</objectAssociation>
-									<objectAssociation id="6">
+									<objectAssociation id="7">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="11" id="1" />
+											<objectAssociationEnd element="object" element-id="10" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="8">
 										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
 											<objectAssociationEnd element="object" element-id="10" id="1" />
 											<objectAssociationEnd element="object" element-id="11" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="9">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="7" id="1" />
+											<objectAssociationEnd element="object" element-id="9" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="10">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="7" id="1" />
+											<objectAssociationEnd element="object" element-id="8" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -1571,88 +1435,8 @@ currentRoom.items = 0</postcondition>
 										</attributes>
 										<graphics>
 											<icon />
-											<position x="475" y="389" />
+											<position x="132" y="187" />
 											<size width="152" height="115" />
-											<color />
-										</graphics>
-									</object>
-									<object id="7">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="51" y="109" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="9">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="290" y="113" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="11">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="534" y="115" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="10">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="54" y="437" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="8">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="49" y="279" />
-											<size width="120" height="80" />
 											<color />
 										</graphics>
 									</object>
@@ -1708,7 +1492,7 @@ currentRoom.items = 0</postcondition>
 									<object id="9">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>2</value>
+												<value>0</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -1740,7 +1524,7 @@ currentRoom.items = 0</postcondition>
 									<object id="11">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>1</value>
+												<value>2</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -1756,7 +1540,7 @@ currentRoom.items = 0</postcondition>
 									<object id="10">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>1</value>
+												<value>0</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -1771,60 +1555,12 @@ currentRoom.items = 0</postcondition>
 									</object>
 								</objects>
 								<associations>
-									<objectAssociation id="1">
-										<classAssociation>2</classAssociation>
-										<description />
-										<associationEnds>
-											<objectAssociationEnd element="object" element-id="7" id="1" />
-											<objectAssociationEnd element="object" element-id="9" id="2" />
-										</associationEnds>
-										<graphics>
-											<labels>
-												<label type="main" identifier="">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="1">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="2">
-													<position x="" y="" />
-												</label>
-											</labels>
-											<points />
-											<color />
-											<lineStyle />
-										</graphics>
-									</objectAssociation>
 									<objectAssociation id="2">
 										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
 											<objectAssociationEnd element="object" element-id="9" id="1" />
 											<objectAssociationEnd element="object" element-id="11" id="2" />
-										</associationEnds>
-										<graphics>
-											<labels>
-												<label type="main" identifier="">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="1">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="2">
-													<position x="" y="" />
-												</label>
-											</labels>
-											<points />
-											<color />
-											<lineStyle />
-										</graphics>
-									</objectAssociation>
-									<objectAssociation id="3">
-										<classAssociation>2</classAssociation>
-										<description />
-										<associationEnds>
-											<objectAssociationEnd element="object" element-id="7" id="1" />
-											<objectAssociationEnd element="object" element-id="8" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -1867,12 +1603,12 @@ currentRoom.items = 0</postcondition>
 											<lineStyle />
 										</graphics>
 									</objectAssociation>
-									<objectAssociation id="5">
-										<classAssociation>1</classAssociation>
+									<objectAssociation id="7">
+										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
-											<objectAssociationEnd element="object" element-id="6" id="1" />
-											<objectAssociationEnd element="object" element-id="7" id="2" />
+											<objectAssociationEnd element="object" element-id="11" id="1" />
+											<objectAssociationEnd element="object" element-id="10" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -1891,12 +1627,132 @@ currentRoom.items = 0</postcondition>
 											<lineStyle />
 										</graphics>
 									</objectAssociation>
-									<objectAssociation id="6">
+									<objectAssociation id="8">
 										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
 											<objectAssociationEnd element="object" element-id="10" id="1" />
 											<objectAssociationEnd element="object" element-id="11" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="500" y="-15" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="9">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="7" id="1" />
+											<objectAssociationEnd element="object" element-id="9" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="10">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="7" id="1" />
+											<objectAssociationEnd element="object" element-id="8" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="500" y="-15" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="11">
+										<classAssociation>1</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="6" id="1" />
+											<objectAssociationEnd element="object" element-id="11" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="12">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="10" id="1" />
+											<objectAssociationEnd element="object" element-id="9" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="13">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="9" id="1" />
+											<objectAssociationEnd element="object" element-id="8" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -1934,88 +1790,8 @@ currentRoom.items = 0</postcondition>
 										</attributes>
 										<graphics>
 											<icon />
-											<position x="475" y="389" />
+											<position x="132" y="187" />
 											<size width="152" height="115" />
-											<color />
-										</graphics>
-									</object>
-									<object id="7">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="51" y="109" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="9">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="290" y="113" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="11">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="534" y="115" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="10">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="54" y="437" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="8">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="49" y="279" />
-											<size width="120" height="80" />
 											<color />
 										</graphics>
 									</object>
@@ -2028,7 +1804,7 @@ currentRoom.items = 0</postcondition>
 						<metrics />
 					</problem>
 					<problem id="5">
-						<name>Problem5</name>
+						<name>NoSolution</name>
 						<description />
 						<objectDiagrams>
 							<objectDiagram id="1">
@@ -2071,7 +1847,7 @@ currentRoom.items = 0</postcondition>
 									<object id="9">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>2</value>
+												<value>0</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -2103,7 +1879,7 @@ currentRoom.items = 0</postcondition>
 									<object id="11">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>1</value>
+												<value>2</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -2119,7 +1895,7 @@ currentRoom.items = 0</postcondition>
 									<object id="10">
 										<attributes>
 											<attribute class="21" id="1">
-												<value>1</value>
+												<value>0</value>
 												<graphics>
 													<color />
 												</graphics>
@@ -2134,60 +1910,12 @@ currentRoom.items = 0</postcondition>
 									</object>
 								</objects>
 								<associations>
-									<objectAssociation id="1">
-										<classAssociation>2</classAssociation>
-										<description />
-										<associationEnds>
-											<objectAssociationEnd element="object" element-id="7" id="1" />
-											<objectAssociationEnd element="object" element-id="9" id="2" />
-										</associationEnds>
-										<graphics>
-											<labels>
-												<label type="main" identifier="">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="1">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="2">
-													<position x="" y="" />
-												</label>
-											</labels>
-											<points />
-											<color />
-											<lineStyle />
-										</graphics>
-									</objectAssociation>
 									<objectAssociation id="2">
 										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
 											<objectAssociationEnd element="object" element-id="9" id="1" />
 											<objectAssociationEnd element="object" element-id="11" id="2" />
-										</associationEnds>
-										<graphics>
-											<labels>
-												<label type="main" identifier="">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="1">
-													<position x="" y="" />
-												</label>
-												<label type="rolename" identifier="2">
-													<position x="" y="" />
-												</label>
-											</labels>
-											<points />
-											<color />
-											<lineStyle />
-										</graphics>
-									</objectAssociation>
-									<objectAssociation id="3">
-										<classAssociation>2</classAssociation>
-										<description />
-										<associationEnds>
-											<objectAssociationEnd element="object" element-id="7" id="1" />
-											<objectAssociationEnd element="object" element-id="8" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -2230,12 +1958,12 @@ currentRoom.items = 0</postcondition>
 											<lineStyle />
 										</graphics>
 									</objectAssociation>
-									<objectAssociation id="5">
-										<classAssociation>1</classAssociation>
+									<objectAssociation id="7">
+										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
-											<objectAssociationEnd element="object" element-id="6" id="1" />
-											<objectAssociationEnd element="object" element-id="7" id="2" />
+											<objectAssociationEnd element="object" element-id="11" id="1" />
+											<objectAssociationEnd element="object" element-id="10" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -2254,12 +1982,84 @@ currentRoom.items = 0</postcondition>
 											<lineStyle />
 										</graphics>
 									</objectAssociation>
-									<objectAssociation id="6">
+									<objectAssociation id="9">
 										<classAssociation>2</classAssociation>
 										<description />
 										<associationEnds>
-											<objectAssociationEnd element="object" element-id="10" id="1" />
-											<objectAssociationEnd element="object" element-id="11" id="2" />
+											<objectAssociationEnd element="object" element-id="7" id="1" />
+											<objectAssociationEnd element="object" element-id="9" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="10">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="7" id="1" />
+											<objectAssociationEnd element="object" element-id="8" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="500" y="-15" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="13">
+										<classAssociation>2</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="9" id="1" />
+											<objectAssociationEnd element="object" element-id="8" id="2" />
+										</associationEnds>
+										<graphics>
+											<labels>
+												<label type="main" identifier="">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="1">
+													<position x="" y="" />
+												</label>
+												<label type="rolename" identifier="2">
+													<position x="" y="" />
+												</label>
+											</labels>
+											<points />
+											<color />
+											<lineStyle />
+										</graphics>
+									</objectAssociation>
+									<objectAssociation id="14">
+										<classAssociation>1</classAssociation>
+										<description />
+										<associationEnds>
+											<objectAssociationEnd element="object" element-id="6" id="1" />
+											<objectAssociationEnd element="object" element-id="10" id="2" />
 										</associationEnds>
 										<graphics>
 											<labels>
@@ -2297,88 +2097,8 @@ currentRoom.items = 0</postcondition>
 										</attributes>
 										<graphics>
 											<icon />
-											<position x="475" y="389" />
+											<position x="132" y="187" />
 											<size width="152" height="115" />
-											<color />
-										</graphics>
-									</object>
-									<object id="7">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="51" y="109" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="9">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="290" y="113" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="11">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="534" y="115" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="10">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="54" y="437" />
-											<size width="120" height="80" />
-											<color />
-										</graphics>
-									</object>
-									<object id="8">
-										<attributes>
-											<attribute class="21" id="1">
-												<value />
-												<graphics>
-													<color />
-												</graphics>
-											</attribute>
-										</attributes>
-										<graphics>
-											<icon />
-											<position x="49" y="279" />
-											<size width="120" height="80" />
 											<color />
 										</graphics>
 									</object>
