@@ -13,10 +13,14 @@ cold(S) :- trap(T), adj(S, T).
 
 % Arbritrary number to define maxint.
 #maxint = 16.
+
+% If there are no reactors in the adjacent rooms T and a reactor in room S then N=K where K is the upper bound.
 n_reactor(N, S) :- reactor(S), #int(N), N>0, total_reactors(K), N=K,  #count{T: adj(S, T), reactor(T)} = 0.
 
+% If there are reactors in the adjacent rooms T and a reactor in room S then N<K where K is the upper bound.
 n_reactor(N, S) :- reactor(S), #int(N), N>0, total_reactors(K), N<K,  #count{T: adj(S, T), reactor(T)} > 0.
 
+% If there are no reactors in room S then it can be defined as n_reactor(0, S).
 n_reactor(0, S) :- -reactor(S).
 
 :- total_reactors(K), #count{S: n_reactor(N, S), N=K} > 1.
