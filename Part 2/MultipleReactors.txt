@@ -11,6 +11,16 @@ cold(S) :- trap(T), adj(S, T).
 :- total_traps(N), #count{S: trap(S)} > N.
 :- #count{S: trap(S)} = 0.
 
+% Arbritrary number to define maxint.
+#maxint = 16.
+n_reactor(N, S) :- reactor(S), #int(N), N>0, total_reactors(K), N=K,  #count{T: adj(S, T), reactor(T)} = 0.
+
+n_reactor(N, S) :- reactor(S), #int(N), N>0, total_reactors(K), N<K,  #count{T: adj(S, T), reactor(T)} > 0.
+
+n_reactor(0, S) :- -reactor(S).
+
+:- total_reactors(K), #count{S: n_reactor(N, S), N=K} > 1.
+
 reactor(S) | -reactor(S) :- room(S).
 radioactive(S) :- reactor(S).
 radioactive(S) :- reactor(T), adj(S, T).
@@ -18,7 +28,6 @@ radioactive(S) :- reactor(T), adj(S, T).
 
 :- total_reactors(N), #count{S: reactor(S)} > N.
 :- #count{S: reactor(S)} = 0.
-%:- #count{S: radioactive(S)} > 3.
 
 % Init.
 
@@ -35,4 +44,4 @@ radioactive(a2).
 -cold(b1).
 
 total_traps(1).
-total_reactors(1).
+total_reactors(2).
