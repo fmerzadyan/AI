@@ -37,20 +37,3 @@ radioactive(S) :- reactor(T), adj(S, T).
 :- total_reactors(N), #count{S: reactor(S)} > N.
 % There should be at least one reactor in the whole grid.
 :- #count{S: reactor(S)} = 0.
-
-% Encodings.
-
-% a1 --- a2
-% |      |
-% b1 --- b2
-
-adj(a1,a2).
-adj(a1,b1).
-adj(a2,b2).
-adj(b1,b2).
-
-radioactive(a2).
--cold(b1).
-
-total_traps(1).
-total_reactors(1).
