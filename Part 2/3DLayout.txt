@@ -1,25 +1,44 @@
+% Bi-directional/symmetric connections
+% between different rooms S and T.
 adj(S, T) :- adj(S, T).
 adj(S, T) :- adj(T, S).
 
+% Room S must exist if it used in an adjacency relationship.
 room(S) :- adj(S, T).
 
+% Room S either contains a trap or does not contain a trap.
 trap(S) | -trap(S) :- room(S).
 
+% A trap in room S causes it to be cold in room S.
 cold(S) :- trap(S).
+% A trap in an adjacent room T causes it to be cold in room S.
 cold(S) :- trap(T), adj(S, T).
+% If there are no traps in adjacent rooms T to room S and 
+% there is no trap in room S, then it must not be cold in room S.
 -cold(S) :- -trap(S), #count{T: adj(S, T), trap(T)} = 0.
+% The number of traps in the whole grid must not be greater 
+% than the set maximum specified by total_traps(N).
 :- total_traps(N), #count{S: trap(S)} > N.
+% There should be at least one trap in the whole grid.
 :- #count{S: trap(S)} = 0.
 
+% Room S either contains a reactor or does not contain a reactor.
 reactor(S) | -reactor(S) :- room(S).
+% A reactor in room S causes it to be radioactive in room S.
 radioactive(S) :- reactor(S).
+% A reactor in an adjacent room T causes it to be radioactive 
+% in room S.
 radioactive(S) :- reactor(T), adj(S, T).
+% If there are no reactors in adjacent rooms T to room S and 
+% there is no reactor in room S, then it must not be radioactive in room S.
 -radioactive(S) :- -reactor(S), #count{T: adj(S, T), reactor(T)} = 0.
-
+% The number of reactors in the whole grid must not be greater 
+% than the set maximum specified by total_reactors(N).
 :- total_reactors(N), #count{S: reactor(S)} > N.
+% There should be at least one reactor in the whole grid.
 :- #count{S: reactor(S)} = 0.
 
-% Init.
+% Encodings.
 
 % a1f1 --- a2f1
 % |          |
